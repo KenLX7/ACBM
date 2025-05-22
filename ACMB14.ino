@@ -195,7 +195,7 @@ void mixMaterials() {
   delay(6000); // 1 minute mixing
   digitalWrite(MIXER_RELAY_PIN, HIGH);
 }
-/*
+
 void openAndCloseValve() {
   lcd.clear();
   lcd.setCursor(0, 0);
@@ -228,7 +228,7 @@ void openAndCloseValve() {
   lcd.setCursor(0, 1);
   lcd.print("Closed");
   delay(2000);
-}*/
+}
 
 void feedToExtruder() {
   lcd.clear();
